@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    border: 2px solid black;
+    border-radius: 2rem;
+    padding: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.board {
+    border: 2px solid black;
+    width: 45vw;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+h3 {
+    margin-top: 3rem;
+    margin-bottom: 0.1rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+button {
+    width: 20%;
+    height: 5rem;
+    margin: 1rem;
+    background-color: #98e8ef;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+button:active {
+    background-color: #a7dda4;
+}
+
+
+

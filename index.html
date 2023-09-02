@@ -4,10 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script.js" defer></script>
 </head>
 <body>
-    
+    <header>
+        <h1>Rock, Paper, Scissors</h1>
+    </header>
+    <section id="gameplay">
+        <div class="board">
+            <h2 class="gameText" id="playerText">Player: </h2>
+            <h2 class="gameText" id="computerText">Computer: </h2>
+            <h2 class="gameText" id="resultText">Result: </h2>
+        </div>
+        <div class="decision">
+            <h3>Choose your weapon against computer:</h3>
+            <button class="choiceBtn" id="rock">Rock</button>
+            <button class="choiceBtn" id="paper">Paper</button>
+            <button class="choiceBtn" id="scissors">Scissors</button>
+        </div>
+        <div class="scoreBoard">
+        <h4 class="gameScore" id="playerScore">Player Score: </h4>
+        <h4 class="gameScore" id="computerScore">Computer Score: </h4>
+        <p id="gameOverText"></p>
+        </div>
+    </section>
 </body>
 </html>
